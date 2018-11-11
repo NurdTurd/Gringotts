@@ -13,7 +13,7 @@ deploy:
   provider: releases
   api_key:
     secure: Jbro5mnh4rOMINFJWBc9hB1l3mYSp1UrlZUBAL+LVljA6+bumQGoYroRa8RFFdJh//y07sla7s/khf8thkdKpuIFnoTo20WyijYVZN4hYHdxmwYKXrhFppo+1YJEUlq1eqjgUsgnGNU9NrugHHdMJvXTuFA0g9+lOW/wbC5hOf76+o56G/gaitYTTcWRcOaKJPn8zibJmgd/Eb2yVjBo2C2nA3jwU5lkREfloAt1CeuJGYFOZllXSb/Xnc0EfzhHPZJiD20Z+tqpqJbYd4BC6RauNjT2FKmZYi/LSYEunhhm/avgh1HcxiC1xWUxNOQ+Ix7wstA38Qp2gEzKhdJeeekocDANbW4sxN25dR6sQRiBSC63zYcT/wVZyxCAJsydUpuBYo2FmXWabvsx3mveh+TpgxbNYZ2j1PIJHZ0iSj/jQ4AW6xkbTRzst16ulkco9VEmGpFq/CBieB4DVNiAJ0svF0mv8icMmXy1mTE//fSyZPLCZnVb55jXmnRPpn48NWCEQgeXHVdB1tfelE1gLj/iHlu+Hlj+yusELMVuj47y403wV+QudBVcx7wTU/rx2PSOxQ683NpCrUS4CS8CtLST8wi2oUk0yoFQQS/dCTUohyLKuOMO5d6k32J9NnHjYgB5sGINmppcJrWraUPq6p6hWsLoeQq+dDNaXovS1Lc=
-  file: "./*"
+  file: "target/Gringotts*.jar"
   skip_cleanup: true
   on:
     all_branches: true
